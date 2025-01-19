@@ -35,7 +35,7 @@ a {
 }
 
 .page-header {
-    display: flex;
+    display: block;
     align-items: center;
     padding: 0 15px;
     margin: 0 auto;
@@ -46,11 +46,13 @@ a {
 .heder-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-nav{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .nav-list {
@@ -109,7 +111,7 @@ padding: 24px 0;
 .kontakts {
     display: flex;
     font-style: normal;
-    margin-left: 332px;
+
     }
 
 .contacts-link {
@@ -126,13 +128,26 @@ color: #434455;
     color: #404bbf;
 }
 
+            /* ------ MAIN ----- */
+
 .business {
     background-color:#2e2f42;
+    border: 1px solid #000;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
-button {
+.button {
+    min-width: 169px;
+    height: 56px;
+    border: 1px solid #000;
+    display: block;border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+
     cursor: pointer;
-}
+
+    }
                                                  /*  оформлення кнопки  */
 .business-text {
     font-weight: 700;
@@ -142,6 +157,10 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 background-color: #2e2f42;
+width: 496px;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .button {
@@ -150,8 +169,14 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-background-color: #4d5ae5
+background-color: #4d5ae5;
+margin-top: 48px;
+margin-left: auto;
+margin-right: auto;
+
+
 }
+
 .button:hover,
 .button:focus {
    background-color:#404bbf;
