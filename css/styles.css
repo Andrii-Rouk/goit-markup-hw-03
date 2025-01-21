@@ -40,7 +40,6 @@ a {
     padding: 0 15px;
     margin: 0 auto;
     border-bottom: 1px solid #e7e9fc;
-
 }
 
 .heder-container {
@@ -105,13 +104,11 @@ padding: 24px 0;
 }
 
 .contacts-list {
-
 }
 
 .kontakts {
     display: flex;
     font-style: normal;
-
     }
 
 .contacts-link {
@@ -144,11 +141,10 @@ color: #434455;
     display: block;border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-
     cursor: pointer;
-
     }
                      /*  оформлення кнопки  */
+
 .business-text {
     font-weight: 700;
 font-size: 56px;
@@ -160,7 +156,6 @@ background-color: #2e2f42;
 width: 496px;
 margin-left: auto;
 margin-right: auto;
-
 }
 
 .button {
@@ -173,13 +168,13 @@ background-color: #4d5ae5;
 margin-top: 48px;
 margin-left: auto;
 margin-right: auto;
-
 }
 
 .button:hover,
 .button:focus {
    background-color:#404bbf;
 }
+
                  /* Секція-2 специфіка ведення бізнесу */
 
 .visually-hidden {
@@ -197,7 +192,6 @@ margin-right: auto;
 
 .spec-line {
     display: flex;
-
     gap: 24px;
     /* margin-left: auto;
     margin-right: auto; */
@@ -210,8 +204,6 @@ margin-right: auto;
 }
 
 .container-spectxt {
-
-
 }
 
 .spec-txt {
@@ -244,7 +236,6 @@ color: #434455;
             /* Секція-3 "Our Team" з фото та і текстом */
 
 .komand-container {
-
 }
 
 
