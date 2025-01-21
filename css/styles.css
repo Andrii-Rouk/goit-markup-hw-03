@@ -81,7 +81,7 @@ color: #4d5ae5;
 
 .footer-logo .logo-part {
     color:#f4f4fd;
-}
+   }
 
 .header-logo  {
     padding-top: 24px;
@@ -148,7 +148,7 @@ color: #434455;
     cursor: pointer;
 
     }
-                                                 /*  оформлення кнопки  */
+                     /*  оформлення кнопки  */
 .business-text {
     font-weight: 700;
 font-size: 56px;
@@ -174,20 +174,63 @@ margin-top: 48px;
 margin-left: auto;
 margin-right: auto;
 
-
 }
 
 .button:hover,
 .button:focus {
    background-color:#404bbf;
 }
-                                             /*  Перелік списку характеристик для бізнесу  */
+                 /* Секція-2 специфіка ведення бізнесу */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.spec-line {
+    display: flex;
+
+    gap: 24px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.specifik {
+    display: block;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container-spectxt {
+
+
+}
+
+.spec-txt {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+flex-basis: calc((100% - 3 * 24px)/ 4)
+}
+
+
 .featur {
-    font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-bottom: 8px;
 }
 
 .advan {
@@ -196,26 +239,62 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+   }
+
+            /* Секція-3 "Our Team" з фото та і текстом */
+
+.komand-container {
+
 }
-                                       /*  Секція "Our Team" з фото та і текстом  */
+
+
 
 .galeri {
+    width: calc((100% - 72px) / 4);
     background-color: #fff;
+    border-radius: 0 0 4px 4px;
+   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-
 .komand {
-    background-color:#f4f4fd;
+display: block;
+border-bottom: 1px solid #000;
+padding-top: 120px;
+padding-bottom: 120px;
+/* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
+/* background: #fff; */
+/* align-items: ; */
+flex-wrap: wrap;
+background-color:#f4f4fd;
+}
+
+.foto-blok {
+   display: flex;
+   gap: 24px;
+   }
+
+.txt-blok {
+    display: block;
+    gap: 8px;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.komand-container {
+    display: block;
+  text-align: center;
 }
 
 .komand-list {
+    display: block;
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+margin-bottom: 72px;
+text-align: center;
 }
 
 .name {
@@ -225,6 +304,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
+text-align: center;
 }
 
 .profes {
@@ -235,9 +316,23 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
-                                 /* ==================== секція " Our Portfolio" ====================== */
+
+            /* === Cекція-4 " Our Portfolio" === */
+
 .portfolio {
     background-color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.our-container {
+    display: block;
+}
+
+.prodtehservis {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
 
 .port-list {
@@ -248,6 +343,18 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+
+padding-bottom: 72px;
+}
+
+.prod-div {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
 }
 
 .prod-serv {
@@ -256,6 +363,9 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-bottom: 8px;
+
+align-items: flex-start;
 }
 
 .prod-text {
@@ -266,15 +376,40 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.prod-img {
+    background: #fff;
+    width: calc((100% - 48px) /3);
+
+}
+
+        /* --FOOTER-- */
+
+.futer-container {
+    display: block;
+    width: 264px;
+
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
 
 .text-footer {
+
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+flex-wrap: wrap;
 }
 
 .pages-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
    background-color: #2e2f42;
+   
+
 }
