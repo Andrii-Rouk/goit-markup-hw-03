@@ -129,7 +129,7 @@ color: #434455;
 
 .business {
     background-color:#2e2f42;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -137,8 +137,9 @@ color: #434455;
 .button {
     min-width: 169px;
     height: 56px;
+    border: none;
     border: 1px solid #000;
-    display: block;border-radius: 4px;
+    display: block; border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
@@ -153,9 +154,11 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 background-color: #2e2f42;
-width: 496px;
+min-width: 496px;
+width: 120px;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 48px;
 }
 
 .button {
@@ -165,7 +168,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 background-color: #4d5ae5;
-margin-top: 48px;
+/* margin-top: 48px; */
 margin-left: auto;
 margin-right: auto;
 }
@@ -222,7 +225,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .advan {
@@ -252,9 +255,6 @@ display: block;
 border-bottom: 1px solid #000;
 padding-top: 120px;
 padding-bottom: 120px;
-/* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
-/* background: #fff; */
-/* align-items: ; */
 flex-wrap: wrap;
 background-color:#f4f4fd;
 }
@@ -334,7 +334,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 
 .prod-div {
@@ -353,7 +353,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-padding-bottom: 8px;
+margin-bottom: 8px;
 align-items: flex-start;
 }
 
