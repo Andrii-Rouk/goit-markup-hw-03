@@ -35,10 +35,9 @@ a {
 }
 
 .page-header {
-    display: block;
-    align-items: center;
+    /* display: block;
     padding: 0 15px;
-    margin: 0 auto;
+    margin: 0 auto; */
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -207,11 +206,11 @@ margin-right: auto;
 }
 
 .spec-txt {
-display: flex;
+/* display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
-gap: 8px;
+gap: 8px; */
 flex-basis: calc((100% - 3 * 24px)/ 4)
 }
 
@@ -249,7 +248,7 @@ color: #434455;
 
 .komand {
 display: block;
-border-bottom: 1px solid #000;
+/* border-bottom: 1px solid #000; */
 padding-top: 120px;
 padding-bottom: 120px;
 flex-wrap: wrap;
