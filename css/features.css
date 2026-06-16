@@ -1,0 +1,20 @@
+.features-name {
+}
+
+.features-title {
+}
+
+.feature-list {
+}
+
+.feature-list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-align: left;
+}
+
+.feature-list-text {
+  color: #434455;
+}
