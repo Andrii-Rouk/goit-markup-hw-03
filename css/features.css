@@ -1,10 +1,24 @@
+.features {
+  padding: 120px 0;
+}
+
+.features-container {
+}
+
 .features-name {
 }
 
 .features-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 0 calc((100% - 72px) / 4);
 }
 
 .feature-list-title {
