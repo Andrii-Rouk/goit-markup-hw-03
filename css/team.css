@@ -1,5 +1,11 @@
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.team-container {
+  flex-direction: column;
+  gap: 72px;
 }
 
 .team-name {
@@ -10,12 +16,26 @@
   text-align: center;
 }
 .team-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
+
 .team-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 calc((100% - 72px) / 4);
   background-color: #fff;
 }
 
-.resume {
+.team-resume {
+  display: flex;
+  padding: 32px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
 }
 
 .resume-name {
@@ -32,4 +52,6 @@
 }
 
 .team-img {
+  width: 264px;
+  height: 260px;
 }
