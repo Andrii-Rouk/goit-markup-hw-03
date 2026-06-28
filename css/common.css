@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   line-height: 1.5;
   color: #2e2f42;
@@ -17,7 +23,7 @@ img {
 
 ol,
 ul {
-  padding-left: 0;
+  padding: 0;
   margin: 0;
   list-style-type: none;
 }
@@ -36,7 +42,7 @@ p {
 }
 
 a {
-  color: initial;
+  /* color: initial; */
   text-decoration: none;
 }
 
@@ -45,4 +51,25 @@ button {
   background: none;
   cursor: pointer;
   padding: 0;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }
