@@ -1,5 +1,6 @@
 .header {
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .header-container {
   justify-content: space-between;
@@ -8,7 +9,7 @@
 
 .logo {
   display: flex;
-  width: 115px;
+  /* width: 115px; */
   margin-right: 76px;
   align-items: center;
   line-height: 1.33;
@@ -28,7 +29,6 @@
 
 .header-nav {
   margin-right: auto;
-
 }
 
 .header-nav-title {
@@ -41,11 +41,11 @@
 }
 
 .header-nav-link {
+  display: inline-block;
   font-weight: 500;
   color: #2e2f42;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-nav-link:hover,
@@ -58,27 +58,22 @@
 
 .contact-title {
   display: flex;
-align-items: center;
-gap: 40px;
+  align-items: center;
+  gap: 40px;
 }
 
 .contact-list-mail {
 }
 
+.contact-link-phone,
 .contact-link-mail {
+  display: block;
   color: #434455;
   font-style: normal;
   padding: 24px 0;
-
 }
 
 .contact-list-phone {
-}
-
-.contact-link-phone {
-  color: #434455;
-  font-style: normal;
-    padding: 24px 0;
 }
 
 .contact-link-mail:hover,
