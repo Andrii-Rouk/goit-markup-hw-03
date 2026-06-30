@@ -1,4 +1,3 @@
-# goit-markup-hw-02
-my first proekt GoIt
-lesson-2
+# goit-markup-hw-03
 
+my first proekt GoIt. Lesson-3
